@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin, FaTwitter, FaFacebook, FaBlog, FaBlogger } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaTwitter, FaFacebook,  FaBlogger } from "react-icons/fa";
 import classes from './Home.css'
 import {motion} from 'framer-motion'
 const handleURL =(url) => {
@@ -6,8 +6,7 @@ const handleURL =(url) => {
 }
 const Home = () => {
     return ( 
-        <>
-        <div><h1>SOCIALS</h1></div>
+        <><div><h1>Socials</h1></div>
         <div className={classes.Contact} id="contact">
             <div className={classes.ContactIcons}>
                 <motion.div whileHover={{scale: 1.2}}>
