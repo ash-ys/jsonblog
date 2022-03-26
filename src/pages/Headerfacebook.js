@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFlag, FaGamepad, FaHome,FaHouseUser, FaLayerGroup, FaObjectGroup, FaPeopleArrows, FaPeopleCarry, FaSearch, FaShopify, FaShoppingBag, FaShoppingCart, FaTeamspeak, FaUser, FaVideo } from 'react-icons/fa'
 import "../pages/Headerfacebook.css"
+import ReactSearchBox from "react-search-box";
 function Headerfacebook() {
   return (
     <div className='header'>
@@ -8,9 +9,10 @@ function Headerfacebook() {
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/800px-2021_Facebook_icon.svg.png" alt="" />
         </div>
         <div className="header__input">
-<FaSearch />
+        
+<FaSearch /> 
         </div>
-        <div className="header__middle"></div>
+        <div className="header__center">
         <div className="header__option">
             <FaHome fontSize={"large"}/>
         </div>
@@ -25,7 +27,7 @@ function Headerfacebook() {
         </div>
         <div className="header__option">
         <FaGamepad fontSize={"large"}/>
-        </div>
+        </div></div>
         <div className="header__right">
         <div className="header__info">
         <FaUser color='grey' />
