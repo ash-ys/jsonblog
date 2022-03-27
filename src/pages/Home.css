@@ -1,29 +1,23 @@
 .Contact {
-  background: rgb(0, 7, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 7, 36, 1) 0%,
-    rgba(9, 121, 90, 1) 0%,
-    #341e46 100%
-  );
+  background: white;
   height: 300px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  
 }
 
 .Contact .ContactIcons {
   width: 100%;
   display: flex;
   justify-content: center;
-
+  
 }
 .Contact .ContactIcons div {
   padding: 10px;
-  
 }
 
 .Contact .ContactIcons svg path {
   cursor: pointer;
   overflow: hidden;
- 
 }

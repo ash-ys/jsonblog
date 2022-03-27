@@ -1,9 +1,10 @@
 import React from 'react'
-import { FaFlag, FaGamepad, FaHome,FaHouseUser, FaLayerGroup, FaObjectGroup, FaPeopleArrows, FaPeopleCarry, FaSearch, FaShopify, FaShoppingBag, FaShoppingCart, FaTeamspeak, FaUser, FaVideo } from 'react-icons/fa'
+import { FaGamepad, FaHome,FaPeopleArrows,  FaSearch,  FaShoppingBag,  FaUser, FaVideo } from 'react-icons/fa'
 import "../pages/Headerfacebook.css"
-import ReactSearchBox from "react-search-box";
+
 function Headerfacebook() {
   return (
+      
     <div className='header'>
         <div className="header__left">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/800px-2021_Facebook_icon.svg.png" alt="" />
