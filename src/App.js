@@ -1,20 +1,29 @@
 
 import './App.css';
 import React from 'react';
-import Facebook from './pages/Facebook';
-import Home from './pages/Home';
-import Records from './records.json';
+import Twitter from '../src/pages/Twitter'
+import records from './records.json'
 function App() {
   return (
     <>
-      <Home />
-      <Facebook />
+     <Twitter />
+     <div className="social-container">
+        {records.map((data, key) => {
+          return (
+            <div key={key}>
+              {data.text 
+                }
+            </div>
+          );
+        })}
+      </div>
+
       <div className='inner'>
         {
-          Records && Records.map(record=>{
+          records && records.map(record=>{
             return(
               <div className='box' key={ record.id }>
-                <img src={ record.icon }  alt=""/>
+                <img src={ record.link }  alt=""/>
                 <br />
                 {record.caption}
               </div>

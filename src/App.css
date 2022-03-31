@@ -40,7 +40,8 @@
 
 .inner{
  width: 100%;
- background-color: aliceblue;
+ background-color: rgb(152, 186, 216);
+ text-align: center;
 }
 
 .box{

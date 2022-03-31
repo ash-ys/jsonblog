@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+  
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0, 75);
+  }
+  
+  .header__left {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .header__left > img {
+    height: 40px;
+  }
+  
+
+  .header__rightt{
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+      justify-content: space-between;
+      width: 300px;
+  }
+  #textig{
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    
+  }
+
+  .header__optionn{
+    padding: 0 10px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    cursor: pointer;
+}
+
+.tw-component{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
